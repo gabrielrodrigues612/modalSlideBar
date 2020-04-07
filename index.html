@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Landing Page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <button class="toggle" id="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+      <h1>Minha Landing Page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button class="cta-btn" id="open">Inscrever-se</button>
+    </header>
+    <div class="container">
+      <h2>Sobre o que é essa landing page?</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+        veritatis facilis perspiciatis velit quaerat doloremque consectetur,
+        tempora tempore aliquid adipisci.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+        consequuntur voluptates! Tempora adipisci nemo laboriosam reiciendis ex,
+        explicabo facere? Fuga dolorem impedit blanditiis repellendus facere nam
+        aliquam ratione ab possimus.
+      </p>
+      <h2>Diga-me mais.</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum nesciunt pariatur sint cupiditate porro? Vero libero officia fugiat alias saepe.
+        <h2>Benefícios</h2>
+        <ul>
+          <li>Acesso pela vida toda</li>
+          <li>30 dias de dinheiro de volta</li>
+          <li>Support ao cliente adaptado</li>
+        </ul>
+      </p>
+    </div>
+
+    <!-- Modal-->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Inscreva-se</h3>
+        </div>
+        <div class="modal-content">
+          <p>Registre-se conosco para obter ofertas, suporte e mais</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input class="form-input" type="text" id="name" placeholder="Digite o nome">
+            </div>
+            <div>
+              <label for="email">E-mail</label>
+              <input class="form-input" type="email" id="email" placeholder="Digite o email">
+            </div>
+            <div>
+              <label for="senha">Senha</label>
+              <input class="form-input" type="password" id="senha" placeholder="Digite a senha">
+            </div>
+            <div>
+              <label for="password2">Confirme a senha</label>
+              <input class="form-input" type="password" id="password2" placeholder="Confirme a senha">
+            </div>
+            <input class="form-input" type="submit" class="submit-btn">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
